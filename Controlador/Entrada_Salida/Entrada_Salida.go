@@ -22,7 +22,7 @@ func main() {
 	fmt.Scanf("%d\n", &tu_edad)
 	fmt.Printf("la edad de esta persona es: %d\n", tu_edad)
 
-	reader := bufio.NewReader(os.Stdin)
+	reader := bufio.NewReader(os.Stdin) // revisar este codigo
 	fmt.Println("Ingresa tu nombre:  ")
 	nombre, err := reader.ReadString('\n')
 	if err != nil {
